@@ -57,6 +57,22 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Oracle.ManagedDataAccess": {
+              "target": "Package",
+              "version": "[21.8.0, )"
+            },
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[3.21.80, )"
+            },
+            "Oracle.ManagedDataAccess.EntityFramework": {
+              "target": "Package",
+              "version": "[21.5.0, )"
+            },
+            "Oracle.Web": {
+              "target": "Package",
+              "version": "[21.5.0, )"
             }
           },
           "imports": [
