@@ -19,14 +19,16 @@ public static class SeedData
                     Title = "Jojo's Bizarre Adventure Phantom Blood",
                     ReleaseDate = DateTime.Parse("2022-12-04"),
                     Genre = "Anime",
-                    Price = 1300M //The literal with the M suffix is of type decimal
+                    Price = 1300M, //The literal with the M suffix is of type decimal
+                    Rating = "R"
                 },
                 new Movie
                 {
                     Title = "El viaje de Chihiro",
                     ReleaseDate = DateTime.Parse("2022-12-05"),
                     Genre = "Anime",
-                    Price = 4300M //The literal with the M suffix is of type decimal
+                    Price = 4300M, //The literal with the M suffix is of type decimal
+                    Rating = "E"
                 }
             );
             context.SaveChanges();

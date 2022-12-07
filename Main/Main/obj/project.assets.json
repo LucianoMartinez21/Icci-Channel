@@ -46,25 +46,6 @@
           }
         }
       },
-      "EntityFramework/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net45/EntityFramework.SqlServer.dll": {
-            "related": ".xml"
-          },
-          "lib/net45/EntityFramework.dll": {
-            "related": ".SqlServer.xml;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net45/EntityFramework.SqlServer.dll": {
-            "related": ".xml"
-          },
-          "lib/net45/EntityFramework.dll": {
-            "related": ".SqlServer.xml;.xml"
-          }
-        }
-      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -1978,18 +1959,6 @@
           }
         }
       },
-      "Oracle.ManagedDataAccess/21.8.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Text.Json": "6.0.0"
-        },
-        "compile": {
-          "lib/net462/Oracle.ManagedDataAccess.dll": {}
-        },
-        "runtime": {
-          "lib/net462/Oracle.ManagedDataAccess.dll": {}
-        }
-      },
       "Oracle.ManagedDataAccess.Core/3.21.80": {
         "type": "package",
         "dependencies": {
@@ -2002,31 +1971,6 @@
         },
         "runtime": {
           "lib/netstandard2.1/Oracle.ManagedDataAccess.dll": {}
-        }
-      },
-      "Oracle.ManagedDataAccess.EntityFramework/21.5.0": {
-        "type": "package",
-        "dependencies": {
-          "EntityFramework": "[6.0.0, 7.0.0)",
-          "Oracle.ManagedDataAccess": "[21.5.0, 22.0.0)"
-        },
-        "compile": {
-          "lib/net462/Oracle.ManagedDataAccess.EntityFramework.dll": {}
-        },
-        "runtime": {
-          "lib/net462/Oracle.ManagedDataAccess.EntityFramework.dll": {}
-        }
-      },
-      "Oracle.Web/21.5.0": {
-        "type": "package",
-        "dependencies": {
-          "Oracle.ManagedDataAccess": "[21.5.0, 22.0.0)"
-        },
-        "compile": {
-          "lib/net462/Oracle.Web.dll": {}
-        },
-        "runtime": {
-          "lib/net462/Oracle.Web.dll": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -3900,36 +3844,6 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
-      ]
-    },
-    "EntityFramework/6.0.0": {
-      "sha512": "y6lX/VMghGBV6TvgQS4Q2WK6kAcOoyD+TQxObN9utd0JsMMdMxyqARxKbvgi7KEIbQ8osZ4ZvImaly7l3NDFDw==",
-      "type": "package",
-      "path": "entityframework/6.0.0",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Content/App.config.transform",
-        "Content/Web.config.transform",
-        "entityframework.6.0.0.nupkg.sha512",
-        "entityframework.nuspec",
-        "lib/net40/EntityFramework.SqlServer.dll",
-        "lib/net40/EntityFramework.SqlServer.xml",
-        "lib/net40/EntityFramework.dll",
-        "lib/net40/EntityFramework.xml",
-        "lib/net45/EntityFramework.SqlServer.dll",
-        "lib/net45/EntityFramework.SqlServer.xml",
-        "lib/net45/EntityFramework.dll",
-        "lib/net45/EntityFramework.xml",
-        "tools/EntityFramework.PowerShell.Utility.dll",
-        "tools/EntityFramework.PowerShell.dll",
-        "tools/EntityFramework.psd1",
-        "tools/EntityFramework.psm1",
-        "tools/about_EntityFramework.help.txt",
-        "tools/init.ps1",
-        "tools/install.ps1",
-        "tools/migrate.exe"
       ]
     },
     "Humanizer.Core/2.14.1": {
@@ -6530,33 +6444,6 @@
         "nuget.versioning.nuspec"
       ]
     },
-    "Oracle.ManagedDataAccess/21.8.0": {
-      "sha512": "QPGJFMl9im40ooJhoiglMspOfTTgK8EwOODe6KMbPY6sTaK+VZ+DyWBmYP3ZPkiITqBfcwPRx1iWazF+1balzA==",
-      "type": "package",
-      "path": "oracle.manageddataaccess/21.8.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "PerfCounters/register_odpm_perfmon_counters.ps1",
-        "PerfCounters/unregister_odpm_perfmon_counters.ps1",
-        "bin/x64/Oracle.ManagedDataAccessIOP.dll",
-        "bin/x86/Oracle.ManagedDataAccessIOP.dll",
-        "content/net462/App.config.install.xdt",
-        "content/net462/App.config.transform",
-        "content/net462/App.config.uninstall.xdt",
-        "content/net462/Oracle.DataAccess.Common.Configuration.Section.xsd",
-        "content/net462/Oracle.ManagedDataAccess.Client.Configuration.Section.xsd",
-        "content/net462/Web.config.install.xdt",
-        "content/net462/Web.config.transform",
-        "content/net462/Web.config.uninstall.xdt",
-        "info.txt",
-        "lib/net462/Oracle.ManagedDataAccess.dll",
-        "oracle.manageddataaccess.21.8.0.nupkg.sha512",
-        "oracle.manageddataaccess.nuspec",
-        "readme.txt"
-      ]
-    },
     "Oracle.ManagedDataAccess.Core/3.21.80": {
       "sha512": "NBy3qenkUo3PJBmKc6/SOyNCWPCJijtRqWZ4gImdfeS5hhXs60L1dAeDLiF6N15IfQT2ExRe/0W3+xbxJ6VQ/Q==",
       "type": "package",
@@ -6572,68 +6459,6 @@
         "oracle.manageddataaccess.core.3.21.80.nupkg.sha512",
         "oracle.manageddataaccess.core.nuspec",
         "readme.txt"
-      ]
-    },
-    "Oracle.ManagedDataAccess.EntityFramework/21.5.0": {
-      "sha512": "ze6A2HaBhVZCvyqAIiuGAaNJlA9FdnsVdRjOErXGeJFsywDYeGzdM4ITfZ4tzQpfVUFwZEUW59vulxJbjIVVbQ==",
-      "type": "package",
-      "path": "oracle.manageddataaccess.entityframework/21.5.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "content/net462/App.config.install.xdt",
-        "content/net462/App.config.uninstall.xdt",
-        "content/net462/Web.config.install.xdt",
-        "content/net462/Web.config.uninstall.xdt",
-        "lib/net462/Oracle.ManagedDataAccess.EntityFramework.dll",
-        "oracle.manageddataaccess.entityframework.21.5.0.nupkg.sha512",
-        "oracle.manageddataaccess.entityframework.nuspec",
-        "readme.txt"
-      ]
-    },
-    "Oracle.Web/21.5.0": {
-      "sha512": "rJ+GWsylBym/Xu7cFt3Ys5PwHz/WyoApSRTNSjfZ0oY3a5myHU6kouDJtQ9C4hWOl5YBbf/GdTMM/5euDllQEA==",
-      "type": "package",
-      "path": "oracle.web/21.5.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "content/net462/App.config.install.xdt",
-        "content/net462/App.config.uninstall.xdt",
-        "content/net462/Web.config.install.xdt",
-        "content/net462/Web.config.uninstall.xdt",
-        "lib/net462/Oracle.Web.dll",
-        "oracle.web.21.5.0.nupkg.sha512",
-        "oracle.web.nuspec",
-        "readme.txt",
-        "sql/InstallAllOracleASPNETProviders.sql",
-        "sql/InstallOracleASPNETCommon.sql",
-        "sql/InstallOracleASPNETCommonSP.plb",
-        "sql/InstallOracleMembership.sql",
-        "sql/InstallOracleMembershipSP.plb",
-        "sql/InstallOraclePersonalization.sql",
-        "sql/InstallOraclePersonalizationSP.plb",
-        "sql/InstallOracleProfile.sql",
-        "sql/InstallOracleProfileSP.plb",
-        "sql/InstallOracleRoles.sql",
-        "sql/InstallOracleRolesSP.plb",
-        "sql/InstallOracleSessionState.sql",
-        "sql/InstallOracleSessionStateSP.plb",
-        "sql/InstallOracleSiteMap.sql",
-        "sql/InstallOracleSiteMapSP.plb",
-        "sql/InstallOracleWebEvents.sql",
-        "sql/InstallOracleWebEventsSP.plb",
-        "sql/UninstallAllOracleASPNETProviders.sql",
-        "sql/UninstallOracleASPNETCommon.sql",
-        "sql/UninstallOracleMembership.sql",
-        "sql/UninstallOraclePersonalization.sql",
-        "sql/UninstallOracleProfile.sql",
-        "sql/UninstallOracleRoles.sql",
-        "sql/UninstallOracleSessionState.sql",
-        "sql/UninstallOracleSiteMap.sql",
-        "sql/UninstallOracleWebEvents.sql"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -10938,10 +10763,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.0",
-      "Oracle.ManagedDataAccess >= 21.8.0",
-      "Oracle.ManagedDataAccess.Core >= 3.21.80",
-      "Oracle.ManagedDataAccess.EntityFramework >= 21.5.0",
-      "Oracle.Web >= 21.5.0"
+      "Oracle.ManagedDataAccess.Core >= 3.21.80"
     ]
   },
   "packageFolders": {
@@ -11002,21 +10824,9 @@
             "target": "Package",
             "version": "[7.0.0, )"
           },
-          "Oracle.ManagedDataAccess": {
-            "target": "Package",
-            "version": "[21.8.0, )"
-          },
           "Oracle.ManagedDataAccess.Core": {
             "target": "Package",
             "version": "[3.21.80, )"
-          },
-          "Oracle.ManagedDataAccess.EntityFramework": {
-            "target": "Package",
-            "version": "[21.5.0, )"
-          },
-          "Oracle.Web": {
-            "target": "Package",
-            "version": "[21.5.0, )"
           }
         },
         "imports": [
@@ -11041,47 +10851,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "El paquete \"EntityFramework 6.0.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
-      "libraryId": "EntityFramework",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "El paquete \"Oracle.ManagedDataAccess 21.8.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
-      "libraryId": "Oracle.ManagedDataAccess",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "El paquete \"Oracle.ManagedDataAccess.EntityFramework 21.5.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
-      "libraryId": "Oracle.ManagedDataAccess.EntityFramework",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "El paquete \"Oracle.Web 21.5.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
-      "libraryId": "Oracle.Web",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  }
 }

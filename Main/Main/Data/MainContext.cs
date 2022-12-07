@@ -15,5 +15,7 @@ namespace Main.Data
         }
 
         public DbSet<Main.Models.Movie> Movie { get; set; } = default!; //empty set, corresponds to a database table. An entity corresponds to a row in the table.
+
+        public DbSet<Main.Models.Product> Product { get; set; } = default!;
     }
 }

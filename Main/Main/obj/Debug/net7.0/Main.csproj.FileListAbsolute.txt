@@ -275,3 +275,12 @@ C:\Users\Luciano\Desktop\Tareas y papeles Universidad\fundamentos de lenguaje de
 C:\Users\Luciano\Desktop\Tareas y papeles Universidad\fundamentos de lenguaje de programacion\Icci-Channel\Main\Main\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Luciano\Desktop\Tareas y papeles Universidad\fundamentos de lenguaje de programacion\Icci-Channel\Main\Main\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\Luciano\Desktop\Tareas y papeles Universidad\fundamentos de lenguaje de programacion\Icci-Channel\Main\Main\obj\Debug\net7.0\Main.csproj.CopyComplete
+C:\Users\Luciano\Desktop\Tareas y papeles Universidad\fundamentos de lenguaje de programacion\Icci-Channel\Main\Main\bin\Debug\net7.0\Oracle.ManagedDataAccess.dll
+C:\Users\Luciano\Desktop\Tareas y papeles Universidad\fundamentos de lenguaje de programacion\Icci-Channel\Main\Main\bin\Debug\net7.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Luciano\Desktop\Tareas y papeles Universidad\fundamentos de lenguaje de programacion\Icci-Channel\Main\Main\bin\Debug\net7.0\System.DirectoryServices.dll
+C:\Users\Luciano\Desktop\Tareas y papeles Universidad\fundamentos de lenguaje de programacion\Icci-Channel\Main\Main\bin\Debug\net7.0\System.DirectoryServices.Protocols.dll
+C:\Users\Luciano\Desktop\Tareas y papeles Universidad\fundamentos de lenguaje de programacion\Icci-Channel\Main\Main\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Luciano\Desktop\Tareas y papeles Universidad\fundamentos de lenguaje de programacion\Icci-Channel\Main\Main\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.dll
+C:\Users\Luciano\Desktop\Tareas y papeles Universidad\fundamentos de lenguaje de programacion\Icci-Channel\Main\Main\bin\Debug\net7.0\runtimes\linux\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+C:\Users\Luciano\Desktop\Tareas y papeles Universidad\fundamentos de lenguaje de programacion\Icci-Channel\Main\Main\bin\Debug\net7.0\runtimes\osx\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+C:\Users\Luciano\Desktop\Tareas y papeles Universidad\fundamentos de lenguaje de programacion\Icci-Channel\Main\Main\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
