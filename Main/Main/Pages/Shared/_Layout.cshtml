@@ -1,6 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Icci-Channel</title>
@@ -12,7 +13,7 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Movies/Index">Icci-Chan</a> <!--<a class="navbar-brand" asp-area="" asp-page="/Index">Main</a>-->
+                <a class="navbar-brand" asp-area="" asp-page="/Movies/Index">UnapShop</a> <!--<a class="navbar-brand" asp-area="" asp-page="/Index">Main</a>-->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -26,7 +27,7 @@
                             <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Movies/Create">Add Film</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Movies/Create">Registration</a>
                         </li>
                     </ul>
                 </div>
@@ -35,12 +36,16 @@
     </header>
     <div class="container">
         <main role="main" class="pb-3">
-            @RenderBody() <!--RenderBody is a placeholder where all the page-specific views show up, wrapped in the layout page.->
+            @RenderBody() <!--RenderBody is a placeholder where all the page-specific views show up, wrapped in the layout page.-->
         </main>
     </div>
 
     <footer class="border-top footer text-muted">
         <div class="container">
+            <a href="https://www.unap.cl/">
+                <img src="~/img/unap_positivo.png" style="max-width: 8%; margin-left:auto; margin-right:auto; opacity: 0.75" />
+            </a>
+            
             &copy; 2022 - Main - <a asp-area="" asp-page="/Privacy">Privacy</a>
         </div>
     </footer>
