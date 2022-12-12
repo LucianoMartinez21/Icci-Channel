@@ -7,6 +7,8 @@ using System.Web.Security;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using Microsoft.AspNet.Identity;
+using System.Linq; //conectar el control de la data "Data control" a la base de datos.
+using TiendaWeb.Models;
 
 namespace TiendaWeb
 {
@@ -71,7 +73,12 @@ namespace TiendaWeb
         {
 
         }
-
+        public IQueryable<Category> GetCategories() 
+        {
+            var _db = new TiendaWeb.Models.ProductContext();
+            IQueryable<Category> query = _db.Categories;
+            return query;
+        }
         protected void Unnamed_LoggingOut(object sender, LoginCancelEventArgs e)
         {
             Context.GetOwinContext().Authentication.SignOut(DefaultAuthenticationTypes.ApplicationCookie);

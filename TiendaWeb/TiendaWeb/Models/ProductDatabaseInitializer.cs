@@ -44,7 +44,7 @@ namespace TiendaWeb.Models
                     ProductId = 1,
                     ProductName = "Lapiz Pasta Azul Bic",
                     Description = "Boligrafo Clasico Cristal Dura Mas.",
-                    ImagePath = "~/img/LapizAzul.jpg",
+                    ImagePath = "LapizAzul.jpg",
                     UnitPrice = 200,
                     CategoryId = 3
                 },
@@ -53,7 +53,7 @@ namespace TiendaWeb.Models
                     ProductId = 2,
                     ProductName = "Chicle Grosso Sabor Sandia",
                     Description = "Chicle Grosso Sabor Sandia.",
-                    ImagePath = "~/img/ChicleSandia.png",
+                    ImagePath = "ChicleSandia.png",
                     UnitPrice = 100,
                     CategoryId = 2
                 },
@@ -62,7 +62,7 @@ namespace TiendaWeb.Models
                     ProductId = 3,
                     ProductName = "Monster Energy Ultra",
                     Description = "Bebida energetica.",
-                    ImagePath = "~/img/BebidaEnergetica.jpg",
+                    ImagePath = "BebidaEnergetica.jpg",
                     UnitPrice = 1500,
                     CategoryId = 1
                 }

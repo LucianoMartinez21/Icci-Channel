@@ -54,6 +54,7 @@
                         <li><a runat="server" href="~/">Inicio</a></li>
                         <li><a runat="server" href="~/About">Acerca de</a></li>
                         <li><a runat="server" href="~/Contact">Contacto</a></li>
+                        <li><a runat="server" href="~/ProductList">Productos</a></li>
                     </ul>
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>
@@ -77,14 +78,26 @@
         <div id="TitleContent" style="text-align:center;">
             <a runat="server" href="~/">
                 <asp:Image ID="Image1" runat="server" ImageUrl="~/img/unap_positivo.png" 
-                    style="position:absolute; 
-                           max-width:10%;
-                           top:30px;
-                           left:150px;
+                    style="max-width:10%;
                            opacity: .5;
                            " BorderStyle="None" />
             </a>
             <br />
+        </div>
+        <div id="CatogoryMenu" style="text-align: center"> <!--Mostrara todas las categorias de la base de datos-->
+            <asp:ListView ID="categoryList"
+                ItemType="TiendaWeb.Models.Category"
+                runat="server"
+                SelectMethod="GetCategories">
+                <ItemTemplate>
+                    <b style="font-size: large; font-style:normal">
+                        <a href="/ProductList.aspx?id=<%#: Item.CategoryId %>">
+                            <%#: Item.CategoryName %>
+                        </a>
+                    </b>
+                </ItemTemplate>
+                <ItemSeparatorTemplate> | </ItemSeparatorTemplate>
+            </asp:ListView>
         </div>
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
