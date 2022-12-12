@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaWeb", "TiendaWeb\TiendaWeb.csproj", "{21E7566F-F9AA-4142-85E8-6DA5E468C718}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaWeb", "TiendaWeb.csproj", "{56B66645-4935-49B4-9339-C4E52F164BCF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{21E7566F-F9AA-4142-85E8-6DA5E468C718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{21E7566F-F9AA-4142-85E8-6DA5E468C718}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{21E7566F-F9AA-4142-85E8-6DA5E468C718}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{21E7566F-F9AA-4142-85E8-6DA5E468C718}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56B66645-4935-49B4-9339-C4E52F164BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56B66645-4935-49B4-9339-C4E52F164BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56B66645-4935-49B4-9339-C4E52F164BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56B66645-4935-49B4-9339-C4E52F164BCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {365956B5-3CB1-4DBF-97FE-46C7D1602C9D}
+		SolutionGuid = {E29D54AA-EC8A-469A-939E-D2B9CD08A4A6}
 	EndGlobalSection
 EndGlobal
