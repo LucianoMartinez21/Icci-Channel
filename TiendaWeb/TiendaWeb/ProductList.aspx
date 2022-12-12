@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Products" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ProductList.aspx.cs" Inherits="TiendaWeb.ProductList" %>
+﻿<%@ Page Title="Productos" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ProductList.aspx.cs" Inherits="TiendaWeb.ProductList" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <section>
         <div>
@@ -29,15 +29,15 @@
                        <table>
                            <tr>
                                <td>
-                                   <a href="ProductDetails.aspx?productID=<%#:Item.ProductId%>">
-                                       <img src="/Catalog/Images/Thumbs/<%#:Item.ImagePath%>"
-                                           width="100" height="75" style="border:solid" />
+                                   <a href="ProductDetails.aspx?productID=<%#:Item.ProductId %>">
+                                       <img src="/Catalog/Images/Thumbs/<%#:Item.ImagePath %>"
+                                           width="100" height="100" style="border: solid" />
                                    </a>
                                </td>
                            </tr>
                            <tr>
                                <td>
-                                   <a href="ProductDetails.aspx?productID=<%#:Item.ProductId%>">
+                                   <a href="ProductDetails.aspx?productID=<%#:Item.ProductId %>">
                                        <span>
                                            <%#:Item.ProductName%>
                                        </span>
