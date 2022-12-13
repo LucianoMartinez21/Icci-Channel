@@ -17,7 +17,7 @@
                     </table>
                 </EmptyDataTemplate>
                 <EmptyItemTemplate>
-                    <td/>
+                    <td runat="server"/>
                 </EmptyItemTemplate>
                 <GroupTemplate>
                     <tr id="itemPlaceholderContainer" runat="server">
@@ -47,6 +47,11 @@
                                        <b>Price: </b><%#:String.Format("{0:c}", Item.UnitPrice)%>
                                    </span>
                                    <br />
+                                   <a href="/AddToCart.aspx?productID=<%#:Item.ProductId %>">
+                                       <span class="ProductListItem">
+                                           <b>Agregar</b>
+                                       </span>
+                                   </a>
                                </td>
                            </tr>
                            <tr>
