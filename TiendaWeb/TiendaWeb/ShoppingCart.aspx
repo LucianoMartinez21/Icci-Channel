@@ -36,7 +36,7 @@
     <table>
         <tr>
             <td>
-                <asp:Button ID="UpdateBtn" runat="server" Text="Actualizar" OnClick="UpdateBtn_Click" />
+                <asp:Button ID="UpdateBtn" runat="server" Text="Update" OnClick="UpdateBtn_Click" />
             </td>
         </tr>
     </table>

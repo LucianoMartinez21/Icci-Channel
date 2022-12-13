@@ -59,11 +59,11 @@ namespace TiendaWeb
 
                     TextBox quantityTextBox = new TextBox();
                     quantityTextBox = (TextBox)CartList.Rows[i].FindControl("PurchaseQuantity");
-                    cartUpdates[i].PurchaseQueantity = Convert.ToInt16(quantityTextBox.Text.ToString());
+                    cartUpdates[i].PurchaseQuantity = Convert.ToInt16(quantityTextBox.Text.ToString());
                 }
                 usersShoppingCart.UpdateShoppingCartDatabase(cartId, cartUpdates);
                 CartList.DataBind();
-                lblTotal.Text = String.Format("{0;c}", usersShoppingCart.GetTotal());
+                lblTotal.Text = String.Format("{0:c}", usersShoppingCart.GetTotal());
                 return usersShoppingCart.GetCartItems();
             }
         }

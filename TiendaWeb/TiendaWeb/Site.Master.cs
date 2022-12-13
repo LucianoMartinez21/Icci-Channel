@@ -9,7 +9,7 @@ using System.Web.UI.WebControls;
 using Microsoft.AspNet.Identity;
 using System.Linq; //conectar el control de la data "Data control" a la base de datos.
 using TiendaWeb.Models;
-
+using TiendaWeb.Logic;
 namespace TiendaWeb
 {
     public partial class SiteMaster : MasterPage
@@ -72,6 +72,14 @@ namespace TiendaWeb
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+        protected void Page_PreRender(object sender, EventArgs e)
+        {
+            using (ShoppingCartActions usersShoppingCart = new ShoppingCartActions())
+            {
+                string cartStr = string.Format("Cart ({0})", usersShoppingCart.GetCount());
+                cartCount.InnerText = cartStr;
+            }
         }
         public IQueryable<Category> GetCategories() 
         {
